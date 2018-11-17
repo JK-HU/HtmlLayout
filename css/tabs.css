@@ -1,0 +1,76 @@
+.tab-wrapper {
+  margin: auto;
+  width: 100%;
+  max-width: 350px;
+}
+.tab-wrapper .tab-menu li {
+  position: relative;
+  background-color: #fff;
+  color: #bcbcbc;
+  display: inline-block;
+  padding: 10px 20px;
+  opacity: 0.8;
+  cursor: pointer;
+  z-index: 0;
+}
+.tab-wrapper .tab-menu li:hover {
+  color: #464646;
+}
+.tab-wrapper .tab-menu li.active {
+  color: #464646;
+  opacity: 1;
+}
+.tab-wrapper .tab-menu li.active:hover {
+  color: #464646;
+}
+.tab-wrapper .tab-content > div {
+  background-color: #fff;
+  box-sizing: border-box;
+}
+.tab-wrapper .tab-content > div .content-border {
+  position: relative;
+  width: 350px;
+  height: 110px;
+  float: left;
+  display: block;
+  margin-bottom: 6px;
+}
+.tab-wrapper .tab-content > div .content-border span {
+  display: inline-block;
+  float: left;
+}
+.tab-wrapper .tab-content > div .content-border .tab-img {
+  width: 104px;
+  height: 84px;
+  position: absolute;
+  top: 13px;
+  left: 20px;
+}
+.tab-wrapper .tab-content > div .content-border .tab-img img {
+  display: block;
+}
+.tab-wrapper .tab-content > div .content-border .food-content dl {
+  width: auto;
+  height: 67px;
+  position: absolute;
+  top: 13px;
+  left: 154px;
+}
+.tab-wrapper .tab-content > div .content-border .food-content dt {
+  color: red;
+  font-size: 14px;
+}
+.tab-wrapper .tab-content > div .content-border .food-content dd {
+  color: #999;
+  margin: 5px 0;
+  font-size: 12px;
+}
+.tab-wrapper .line {
+  position: absolute;
+  width: 0;
+  height: 7px;
+  background-color: aqua;
+  top: 0;
+  left: 0;
+}
+/*# sourceMappingURL=tabs.css.map */
